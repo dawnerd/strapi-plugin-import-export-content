@@ -95,6 +95,7 @@ async function getValidComponent(value, attribute, user) {
     );
   } else {
     const componentValue = Array.isArray(value) ? value[0] : value;
+    if (value === null) return null;
     return getValidSingleComponent(componentValue, attributes, user);
   }
 }
