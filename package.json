@@ -41,5 +41,8 @@
   "bugs": {
     "url": "https://github.com/EdisonPeM/strapi-plugin-import-export-content/issues"
   },
-  "homepage": "https://github.com/EdisonPeM/strapi-plugin-import-export-content#readme"
+  "homepage": "https://github.com/EdisonPeM/strapi-plugin-import-export-content#readme",
+  "volta": {
+    "node": "14.5.0"
+  }
 }
